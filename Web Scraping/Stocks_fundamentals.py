@@ -279,7 +279,6 @@ for stocks in stocks_list:
    csv_save2.append(csv_save)
    csv_save=[]
 
-
 with xlsxwriter.Workbook('status_invest.xlsx') as workbook:
     worksheet = workbook.add_worksheet()
 
