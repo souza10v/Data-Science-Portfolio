@@ -23,6 +23,7 @@ def replace(aux):
     aux = aux.replace("]", "")
     aux = aux.replace("'", "")
     aux = aux.replace(".", "")
+    
     return(aux)
 
 for stocks in stocks_list:
